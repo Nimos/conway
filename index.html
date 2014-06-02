@@ -1,0 +1,20 @@
+<!DOCTYPE html5>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css"></link>
+	</head>
+	<body>
+		<div class="main">
+			<canvas height="600" width="800" id="game"></canvas>
+			<div class="controls">
+				<a href="#" id="stopgo" class="play">Play/Pause</a>
+				-
+				<a href="#" id="clear">Clear</a>
+			</div>
+		</div>
+		<script src="js/game.js"></script>
+		<script>
+			life = new gameOfLife(game, 100,75);
+		</script> 
+	</body>
+</html>
